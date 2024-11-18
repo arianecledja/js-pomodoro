@@ -4,7 +4,7 @@ const stopEl = document.getElementById("stop")
 const timerEl = document.getElementById("timer")
 
 let interval
-let timeLeft = 300 // 1500 segundos = 25 minutos
+let timeLeft = 1500 // 1500 segundos = 25 minutos
 
 function updateTimer () {
     let minutes = Math.floor(timeLeft / 60)
@@ -21,8 +21,8 @@ function startTimer() {
         updateTimer()
         if(timeLeft === 0) {
             clearInterval(interval)
-            // alert("Time´s up!")
-            timeLeft = 300
+            alert("Time´s up!")
+            timeLeft = 1500
             updateTimer()
         }
     }, 1000)
