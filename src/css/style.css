@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(to right top, #c6e7ff, #c8ebff, #cbefff, #cff3ff, #d4f6ff);
+    /* background-image: linear-gradient(to right top, #c6e7ff, #c8ebff, #cbefff, #cff3ff, #d4f6ff); azul */
+    background-color: white;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -29,7 +30,7 @@ body {
 }
 
 .timer {
-    margin: 10px;
+    margin: 4.5rem auto;
     font-weight: 700;
     font-size: 352px;
     color: #2c3e50;
@@ -39,6 +40,7 @@ button {
     font-size: 18px;
     padding: 10px 20px;
     margin: 10px;
+    margin-top: 10rem;
     color:white;
     border: none;
     border-radius: 4px;
