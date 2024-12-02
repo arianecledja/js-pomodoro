@@ -1,5 +1,5 @@
 const startEl = document.getElementById("start")
-const stopEl = document.getElementById("stop")
+// const stopEl = document.getElementById("stop")
 // const resetEl = document.getElementById("reset")
 const timerEl = document.getElementById("timer")
 
@@ -16,6 +16,7 @@ function updateTimer () {
 
 function startTimer() {
     startEl.style.display = "none"
+    // stopEl.style.display = "none"
     interval = setInterval(() => {
         timeLeft--
         updateTimer()
@@ -37,5 +38,5 @@ function stopTimer() {
 // }
 
 startEl.addEventListener("click", startTimer)
-stopEl.addEventListener("click", stopTimer)
+// stopEl.addEventListener("click", stopTimer)
 // resetEl.addEventListener("click", resetTimer)

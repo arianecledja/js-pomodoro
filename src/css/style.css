@@ -1,47 +1,97 @@
 body {
     /* background-image: linear-gradient(to right top, #c6e7ff, #c8ebff, #cbefff, #cff3ff, #d4f6ff); azul */
-    background-color: #fff;
-    width: 100vw;
-    height: 100vh;
+    /* background-color: #fff; */
     margin: 0;
     padding: 0;
 
     /* font-family: "DynaPuff", system-ui; */
     /* font-family: "Coiny", system-ui; */
-    font-family: "Stardos Stencil", system-ui;
+    /* font-family: "Stardos Stencil", system-ui; */
     /* font-weight: 400; */
     /* font-style: normal; */
+    font-family: "Roboto", sans-serif;
+    /* overflow: hidden; */
+    box-sizing: border-box;
 }
 
-.container {
+.bg_video {
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  }
+  
+  .container {
+    height: 100%;
+  margin:auto;
+  position:fixed;
+  /* background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; */
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  }
+
+/* .box {
     width: 100%;
-    margin: auto;
-    /* max-width: 400px; */
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .container {
+    margin: 0 auto;
+    padding: 0;
     text-align: center;
-    /* padding: 20px; */
+    
 }
+
+.bg_video{
+    top: 0;
+    left: 0;
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url(/src/videos/chuva_medium.mp4) no-repeat;
+    background-size: cover; 
+} */
+
 
 /* .fixed { position: fixed; top: 0; left: 0; } */
 
 .title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
-    /* margin-bottom: 10px; */
-    color: #2c3e50;
+    color: white;
+}
+p {
+    margin: 0;
+    padding:0;
 }
 
 .timer {
-    margin: 0 auto;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 500px;
-    color: #000;
-    text-shadow: 3px 3px 2px rgba(44, 62, 80, 1);
+    color:#e6f1e6;
+    /* text-shadow: 3px 3px 2px rgba(44, 62, 80, 1);     */
 }
 
 button {
-    font-size: 18px;
+    margin-bottom: 0.8rem;
+    font-size: 16px;
     padding: 10px 20px;
-    margin: 10px;
+    /* margin: 5px; */
     /* margin-top: 10rem; */
     color:white;
     border: none;
