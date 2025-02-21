@@ -8,10 +8,11 @@ body {
 
 .bg_video {
     position: fixed;
-    right: 0;
+    /* right: 0; */
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
+    width: 100vw;
   }
   
   .container {
@@ -41,9 +42,13 @@ p {
 
 .timer {
     font-weight: 500;
-    font-size: 500px;
-    color:#e6f1e6;
-    /* text-shadow: 3px 3px 2px rgba(44, 62, 80, 1);     */
+    /* font-size: 500px; */
+    font-size: 200px;
+    /* color:#e6f1e6; */
+    /* color:yellow; */
+    opacity: .7;
+    color:rgba(231, 231, 231, 0.836);
+    text-shadow: 3px 3px 2px rgba(44, 62, 80, 1);    
 }
 
 button {
